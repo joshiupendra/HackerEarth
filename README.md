@@ -10,6 +10,7 @@
                 <li>Maximum Borders</li>
                 <li>Number Of Steps</li>
                 <li>Zoos</li>
+                <li>Split Houses</li>
             </ul>
         </li>
     </ul>
