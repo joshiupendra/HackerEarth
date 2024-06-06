@@ -1,7 +1,7 @@
 //import for Scanner and other utility classes
 import java.util.*;
 
-class TestClass {
+class MaximumBorders {
     public static void main(String args[] ) throws Exception {
         Scanner s = new Scanner(System.in);
 

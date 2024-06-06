@@ -1,7 +1,7 @@
 import java.util.*;
 
 
-class TestClass {
+class FavouriteSinger {
     public static void main(String args[] ) throws Exception {
         Scanner s = new Scanner(System.in);
 

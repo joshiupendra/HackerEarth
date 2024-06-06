@@ -6,3 +6,4 @@ Basic Programming
         Basics of Input/Output
             Favourite Singer
             Maximum Borders
+            Number Of Steps
