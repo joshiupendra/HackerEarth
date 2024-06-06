@@ -7,3 +7,4 @@ Basic Programming
             Favourite Singer
             Maximum Borders
             Number Of Steps
+            Zoos
