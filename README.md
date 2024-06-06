@@ -1,10 +1,16 @@
 # HackerEarth
-Problems from HackerEarth
-
-Basic Programming
-    Input/Output
-        Basics of Input/Output
-            Favourite Singer
-            Maximum Borders
-            Number Of Steps
-            Zoos
+<div align="left">
+    <h2>Problems from HackerEarth</h2>
+    <h3>Basic Programming</h3>
+    <h4>Input/Output</h4>
+    <ul>
+        <li>Basics of Input/Output
+            <ul>
+                <li>Favourite Singer</li>
+                <li>Maximum Borders</li>
+                <li>Number Of Steps</li>
+                <li>Zoos</li>
+            </ul>
+        </li>
+    </ul>
+</div>
