@@ -11,6 +11,7 @@
                 <li>Number Of Steps</li>
                 <li>Zoos</li>
                 <li>Split Houses</li>
+                <li>Cost of Balloons</li>
             </ul>
         </li>
     </ul>
