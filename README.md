@@ -18,5 +18,10 @@
                 <li>Toggle String</li>
             </ul>
         </li>
+        <li>
+        	 <ul>
+        	 	  <li>Minimum Length</li>
+        	 </ul>
+        </li>
     </ul>
 </div>
