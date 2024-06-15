@@ -33,15 +33,38 @@ public class TramRide {
         start -= 1;
         finish -= 1;
         
-        // For Clock wise Path
-        int k = start;
+        if (start < finish) {
+        	clockPath = clockwise(start, finish, Ticket_cost);
+        } else {
+        	clockPath = antiClockwise(start, finish, Ticket_cost);
+        }
+		
+        if (start < finish) {
+        	antiClockPath = antiClockwise(start, finish, Ticket_cost);
+        } else {
+        	antiClockPath = clockwise(finish, start, Ticket_cost);
+        }
+        
+        result = (clockPath < antiClockPath)? clockPath : antiClockPath;
+        
+        return result;
+    
+    }
+    
+    static long clockwise(int start, int finish, int[] Ticket_cost) {
+    	long clockPath = 0;
+    	int k = start;
         while (k != finish) {
         	clockPath += Ticket_cost[k];
         	k++;
         }
-        
-        // For Anti Clock wise Path 
-		k = finish;
+    	return clockPath;
+    }
+    
+    static long antiClockwise(int start, int finish, int[] Ticket_cost) {
+    	long antiClockPath = 0;
+    	int k = finish;
+    	int N = Ticket_cost.length;
 		while (k != start) {
 			antiClockPath += Ticket_cost[k];
 			k++;
@@ -49,10 +72,6 @@ public class TramRide {
 				k = 0;
 			}
 		}
-        
-        result = (clockPath < antiClockPath)? clockPath : antiClockPath;
-        
-        return result;
-    
+		return antiClockPath;
     }
 }
