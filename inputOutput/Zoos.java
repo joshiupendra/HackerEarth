@@ -1,3 +1,4 @@
+package inputOutput;
 //import for Scanner and other utility classes
 import java.util.*;
 
