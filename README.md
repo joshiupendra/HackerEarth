@@ -22,6 +22,7 @@
         	 <ul>
         	 	  <li>Minimum Length</li>
         	 	  <li>Tram ride</li>
+        	 	  <li>Array Queries</li>
         	 </ul>
         </li>
     </ul>
