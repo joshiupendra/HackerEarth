@@ -12,6 +12,7 @@
                 <li>Zoos</li>
                 <li>Split Houses</li>
                 <li>Cost of Balloons</li>
+                <li>Factorial</li>
             </ul>
         </li>
     </ul>
