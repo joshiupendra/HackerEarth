@@ -13,6 +13,7 @@
                 <li>Split Houses</li>
                 <li>Cost of Balloons</li>
                 <li>Factorial</li>
+                <li>Palindromic String</li>
             </ul>
         </li>
     </ul>
