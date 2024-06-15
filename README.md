@@ -15,6 +15,7 @@
                 <li>Factorial</li>
                 <li>Palindromic String</li>
                 <li>Ali and Helping innocent people</li>
+                <li>Toggle String</li>
             </ul>
         </li>
     </ul>
