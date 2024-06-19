@@ -18,7 +18,10 @@
                 <li>Toggle String</li>
             </ul>
         </li>
-        <li>Data Structures
+    </ul>
+    <h4>Data Structure</h4>
+    <ul>
+        <li>Arrays
         	 <ul>
         	 	  <li>Minimum Length</li>
         	 	  <li>Tram ride</li>
