@@ -23,6 +23,7 @@
         	 	  <li>Minimum Length</li>
         	 	  <li>Tram ride</li>
         	 	  <li>Array Queries</li>
+        	 	  <li>James and The Menus</li>
         	 </ul>
         </li>
     </ul>

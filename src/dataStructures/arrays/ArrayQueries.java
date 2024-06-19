@@ -1,4 +1,4 @@
-package dataStructures;
+package dataStructures.arrays;
 
 import java.io.BufferedReader;
 import java.io.IOException;
