@@ -27,6 +27,7 @@
         	 	  <li>Tram ride</li>
         	 	  <li>Array Queries</li>
         	 	  <li>James and The Menus</li>
+        	 	  <li>Permutations</li>
         	 </ul>
         </li>
     </ul>
