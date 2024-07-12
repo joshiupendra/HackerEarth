@@ -28,7 +28,12 @@
         	 	  <li>Array Queries</li>
         	 	  <li>James and The Menus</li>
         	 	  <li>Permutations</li>
+        	 	  <li>Sum As Per Frequency</li>
         	 </ul>
         </li>
+    </ul>
+    <h4>Interview Coding Problems</h4>
+    <ul>
+    	  <li>Rotate Matrix</li>
     </ul>
 </div>
