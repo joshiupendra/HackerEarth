@@ -39,5 +39,6 @@
     	  <li>Valid Sudoku</li>
     	  <li>Jump Game</li>
     	  <li>Jump Game 2</li>
+    	  <li>Next Permutation</li>
     </ul>
 </div>
