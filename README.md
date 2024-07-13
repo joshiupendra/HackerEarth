@@ -40,5 +40,6 @@
     	  <li>Jump Game</li>
     	  <li>Jump Game 2</li>
     	  <li>Next Permutation</li>
+    	  <li>Max Points on a Line</li>
     </ul>
 </div>
