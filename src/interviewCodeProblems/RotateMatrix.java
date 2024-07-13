@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 
 public class RotateMatrix {
-	// This Problem asked in Google, Amazon, Facebook Interviews
+	// Asked in Google, Amazon, Facebook Interviews
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         PrintWriter wr = new PrintWriter(System.out);
