@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 
 /*
- * Sort It Up
+ * Sort It Up/ Dutch National Flag
 
 You are given an array arr, consisting of only zeroes, ones and twos.
 Sort the same array in-place and return it. Do not create a new array.

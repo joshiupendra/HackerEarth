@@ -36,5 +36,6 @@
     <ul>
     	  <li>Rotate Matrix</li>
     	  <li>Sort It Up</li>
+    	  <li>Valid Sudoku</li>
     </ul>
 </div>
