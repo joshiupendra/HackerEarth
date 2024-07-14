@@ -47,7 +47,7 @@ public class LetterCombinationsOfPhoneNumber {
         PrintWriter wr = new PrintWriter(System.out);
          String str = br.readLine();
 
-         String[] out_ = all_combos(str);
+         String[] out_ = all_combos(str, true);
          for (int i_out_ = 0; i_out_ < out_.length; i_out_++)
          {
          	System.out.println(out_[i_out_]);
@@ -57,7 +57,7 @@ public class LetterCombinationsOfPhoneNumber {
          br.close();
     }
 	
-    static String[] all_combos(String str){
+    static String[] all_combos(String str, boolean recursiveSolution){
         Queue<String> res = new LinkedList<>();
         HashMap<String, String> map = new HashMap<>(){{
         	put("2", "abc");
@@ -70,20 +70,37 @@ public class LetterCombinationsOfPhoneNumber {
         	put("9", "wxyz");
         }};
         
-        for (int i=0; i<str.length(); i++) {
-        	while ((res.peek() != null ? res.peek().length() : 0) == i) {
-        		String temp = "";
-        		if (res.size() > 0) {
-        			temp = res.element();
-        			res.poll();
-        		}
-        		String letters = map.get(String.valueOf(str.charAt(i)));
-        		for (int j=0; j<letters.length(); j++) {
-        			res.add(temp+letters.charAt(j));
-        		}
-        	}
-        }
+        if (recursiveSolution) {
+	        recursiveSolution(str, map, res, 0, "");
+	        return res.toArray(new String[0]); 
+        } 
+        else {        
+	        for (int i=0; i<str.length(); i++) {
+	        	while ((res.peek() != null ? res.peek().length() : 0) == i) {
+	        		String temp = "";
+	        		if (res.size() > 0) {
+	        			temp = res.element();
+	        			res.poll();
+	        		}
+	        		String letters = map.get(String.valueOf(str.charAt(i)));
+	        		for (int j=0; j<letters.length(); j++) {
+	        			res.add(temp+letters.charAt(j));
+	        		}
+	        	}
+	        }
 
-        return res.toArray(new String[0]);  
+        return res.toArray(new String[0]); 
+        }
+    }
+    
+    static void recursiveSolution(String str, HashMap<String, String> map, Queue<String> result, int currentChar, String res) {
+    	if (res.length() == str.length()) {
+    		result.add(res);
+    		return;
+    	}
+    	String currentString = map.get(String.valueOf(str.charAt(currentChar)));
+    	for (int i=0; i<currentString.length(); i++) {
+    		recursiveSolution(str, map, result, currentChar+1, res+String.valueOf(currentString.charAt(i)));
+    	}
     }
 }
