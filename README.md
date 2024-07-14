@@ -42,5 +42,6 @@
     	  <li>Next Permutation</li>
     	  <li>Max Points on a Line</li>
     	  <li>Generate Parentheses</li>
+    	  <li>Letter Combinations Of a Phone Number</li>
     </ul>
 </div>
