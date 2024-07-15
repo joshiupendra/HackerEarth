@@ -44,5 +44,6 @@
     	  <li>Generate Parentheses</li>
     	  <li>Letter Combinations of a Phone Number</li>
     	  <li>Longest String Without Repeating Characters</li>
+    	  <li>Golden Letters</li>
     </ul>
 </div>
