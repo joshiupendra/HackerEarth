@@ -43,5 +43,6 @@
     	  <li>Max Points on a Line</li>
     	  <li>Generate Parentheses</li>
     	  <li>Letter Combinations of a Phone Number</li>
+    	  <li>Longest String Without Repeating Characters</li>
     </ul>
 </div>
