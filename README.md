@@ -46,5 +46,6 @@
     	  <li>Longest String Without Repeating Characters</li>
     	  <li>Golden Letters</li>
     	  <li>It takes Two to Tango!</li>
+    	  <li>Good Pairing</li>
     </ul>
 </div>
