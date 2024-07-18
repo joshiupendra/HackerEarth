@@ -47,5 +47,6 @@
     	  <li>Golden Letters</li>
     	  <li>It takes Two to Tango!</li>
     	  <li>Good Pairing</li>
+    	  <li>Verify the Alien Dictionary</li>
     </ul>
 </div>
