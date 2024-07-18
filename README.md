@@ -53,5 +53,6 @@
     	  <li>Sort those Squares!</li>
     	  <li>Stuff Them Candies In!</li>
     	  <li>Missing No!</li>
+    	  <li>Intersection of 3 Sorted Arrays</li>
     </ul>
 </div>
