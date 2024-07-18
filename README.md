@@ -48,5 +48,6 @@
     	  <li>It takes Two to Tango!</li>
     	  <li>Good Pairing</li>
     	  <li>Verify the Alien Dictionary</li>
+    	  <li>Destroy Those Pairs!</li>
     </ul>
 </div>
