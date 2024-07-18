@@ -49,5 +49,6 @@
     	  <li>Good Pairing</li>
     	  <li>Verify the Alien Dictionary</li>
     	  <li>Destroy Those Pairs!</li>
+    	  <li>Shuffle the Array!</li>
     </ul>
 </div>
