@@ -50,5 +50,6 @@
     	  <li>Verify the Alien Dictionary</li>
     	  <li>Destroy Those Pairs!</li>
     	  <li>Shuffle the Array!</li>
+    	  <li>Sort those Squares!</li>
     </ul>
 </div>
