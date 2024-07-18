@@ -51,5 +51,6 @@
     	  <li>Destroy Those Pairs!</li>
     	  <li>Shuffle the Array!</li>
     	  <li>Sort those Squares!</li>
+    	  <li>Stuff Them Candies In!</li>
     </ul>
 </div>
