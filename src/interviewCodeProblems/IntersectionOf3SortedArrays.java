@@ -100,6 +100,5 @@ public class IntersectionOf3SortedArrays {
         int[] result = res.stream().mapToInt(i -> i).toArray();
 
         return result;
-    
     }
 }

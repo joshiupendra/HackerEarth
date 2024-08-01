@@ -31,6 +31,11 @@
         	 	  <li>Sum As Per Frequency</li>
         	 </ul>
         </li>
+        <li>Hash Tables
+        	<ul>
+        		<li>Valid Pairs</li>
+        	</ul>
+        </li>
     </ul>
     <h4>Interview Coding Problems</h4>
     <ul>
