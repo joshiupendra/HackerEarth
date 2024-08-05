@@ -82,21 +82,8 @@ public class URLShortner {
         	String key = query[2];
         	String userId = query[3];
         	
-        	// Check url length
-        	if (url.length() < 1 || url.length() > 100) {
-        		result[i] = "NO";
-        		continue;
-        	}
-        	
         	// Check URL
         	if (!(url.startsWith("http://") || url.startsWith("https://"))) {
-        		result[i] = "NO";
-        		System.out.println("url - NO");
-        		continue;
-        	}
-        	
-        	// Check time length
-        	if (time.length() < 1 || time.length() > 10) {
         		result[i] = "NO";
         		continue;
         	}
@@ -104,11 +91,8 @@ public class URLShortner {
         	// Check Time between queries
         	if (userTimeMap.containsKey(userId) && (Long.parseLong(time) - Long.parseLong(userTimeMap.get(userId))) < 5) {
         		result[i] = "NO";
-        		System.out.println("time - NO");
         		continue;
-        	} else {
-        		userTimeMap.put(userId, time);
-        	}
+        	} 
         	
         	// Check key length
         	if (key.length() < 2 || key.length() > 12) {
@@ -120,8 +104,6 @@ public class URLShortner {
         	if (userKeyMap.containsKey(key)) {
         		result[i] = "NO";
         		continue;
-        	} else {
-        		userKeyMap.put(key, url);
         	}
         	
         	// Check key
@@ -129,7 +111,6 @@ public class URLShortner {
         		char ch = key.charAt(j);
         		if (!((ch >= 97 && ch <= 122) || (ch >= 65 && ch <= 90) || (ch >= 48 && ch <= 57))) {
         			result[i] = "NO";
-        			System.out.println(i + " " + (int) ch  + " key - NO");
             		break;
         		}
         	}
@@ -149,11 +130,11 @@ public class URLShortner {
         		}
         	}
         	
+        	userTimeMap.put(userId, time);
+        	userKeyMap.put(key, url);
+        	
         	result[i] = (result[i] == "NO") ? result[i] : "YES";
         }
-        System.out.println(userTimeMap);
         return result;
-    
     }
-
 }

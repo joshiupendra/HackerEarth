@@ -35,6 +35,7 @@
         	<ul>
         		<li>Valid Pairs</li>
         		<li>URL Shortner</li>
+        		<li>Unusual Construction</li>
         	</ul>
         </li>
     </ul>
